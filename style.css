@@ -38,6 +38,12 @@ body {
 #maincontainer > div {
   margin-right: 10px;
   margin-left: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#main {
+  max-width: 600px;
 }
 
 #main > h1 {
@@ -56,10 +62,6 @@ body {
 #main > h1 > .highlight {
   font-family: DDinBold;
   color: #28BFBF;
-}
-
-#main {
-  min-width: 515px;
 }
 
 #main > p {
@@ -97,9 +99,6 @@ body {
 }
 
 @media only screen and (max-device-width: 600px) and (orientation: portrait) {
-  #main {
-    min-width: 400px
-  }
 
   #main > h1 {
     font-size: 24px;
