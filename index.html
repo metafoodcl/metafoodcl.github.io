@@ -5,11 +5,46 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Metafood</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <img src="logo.png" style="position:absolute; top:50%;left:50%;transform:translate(-50%,-100%);-ms-transform:translate(-50%, -100%);-webkit-transform:translate(-50%, -100%);"/>
-  <a href="https://wa.me/56953129626" target="_blank" style="position:absolute; top:50%;left:50%;transform:translate(-50%,+50%);-ms-transform:translate(-50%, +50%);-webkit-transform:translate(-50%, +50%);">
-    <img src="whatsapp.png" style="width: 60px; height: 60px;"/>
-  </a>
+  <div id="title">
+    <picture>
+      <source srcset="LogoMetafood-blanco.webp" type="image/webp">
+      <source srcset="LogoMetafood-blanco.png" type="image/png">
+      <img src="LogoMetafood-blanco.png" alt="LogoMetafood">
+    </picture>
+  </div>
+  <div id="maincontainer">
+    <div id="main">
+      <h1>Pizzas y empanadas de<br>calidad <span class="highlight"> al por mayor</span><img src="Empanada.png" alt="Empanada"></h1>
+      <p>Si estás buscando los mejores precios de pizzas y<br>empanadas al por mayor o quieres comprar algunos<br>insumos para pizzas <span class="highlight">¡Tenemos lo que necesitas!</span></p>
+      <a href="https://wa.me/56953129626" target="_blank"><span>CONTÁCTANOS</span> <img src="whatsapp.svg" alt="WhatsApp Logo"></a>
+    </div>
+    <div id="image">
+      <picture>
+        <source srcset="Pizza-vertical.webp" type="image/webp">
+        <source srcset="Pizza-vertical.jpg" type="image/jpeg">
+        <img src="Pizza-vertical.jpg" alt="Pizza">
+      </picture>
+    </div>
+    <div id="list">
+      <div class="list-item">
+        <p class="emoji">🏃</p>
+        <h2>Más rápido imposible</h2>
+        <p class="text">Recibirás tu pedido en un plazo de 2 a 3 días hábiles.</p>
+      </div>
+      <div class="list-item">
+        <p class="emoji">🍕</p>
+        <h2>Ingredientes de calidad</h2>
+        <p class="text">Contamos con ingredientes de máxima calidad. ¡solo pruébalos y verás! </p>
+      </div>
+      <div class="list-item">
+        <p class="emoji">🚛</p>
+        <h2>Despachos sin complicaciones</h2>
+        <p class="text">Tus pizzas y empanadas llegarán en perfectas condiciones.</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

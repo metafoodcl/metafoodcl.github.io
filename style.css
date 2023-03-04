@@ -1,0 +1,171 @@
+@font-face {
+  font-family: DDin;
+  src: url('D-DIN-PRO-400-Regular.otf');
+}
+@font-face {
+  font-family: DDinBold;
+  src: url('D-DIN-PRO-700-Bold.otf');
+}
+
+body {
+  background-color: #272727;
+}
+
+#title {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+#title > picture {
+  height: 90px;
+  display: block;
+}
+
+#title > picture * {
+  max-height: 100%;
+  display: block;
+  margin: auto;
+}
+
+#maincontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+#maincontainer > div {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#main > h1 {
+  font-family: DDin;
+  color: white;
+  font-size: 48px;
+  line-height: 67px;
+}
+
+#main > h1 > img {
+  height: 45px;
+  margin-left: 30px;
+  transform: rotate(-13.76deg);
+}
+
+#main > h1 > .highlight {
+  font-family: DDinBold;
+  color: #28BFBF;
+}
+
+#main {
+  min-width: 515px;
+}
+
+#main > p {
+  font-family: DDin;
+  font-size: 24px;
+  color: white;
+  margin-bottom: 45px;
+}
+
+#main > a {
+  display: flex;
+  height: 70px;
+  width: 254px;
+  font-family: DDinBold;
+  font-size: 24px;
+  color: #28BFBF;
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid #28BFBF;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+#main > a > img {
+  height: 35px;
+  stroke: #28BFBF;
+}
+
+#main > p > .highlight {
+  font-family: DDinBold;
+}
+
+@media only screen and (max-device-width: 600px) and (orientation: portrait) {
+  #main {
+    min-width: 400px
+  }
+
+  #main > h1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  #main > p {
+    font-size: 18px;
+    line-height: 16px;
+  }
+
+  #main > a {
+    height: 50px;
+    font-size: 20px;
+  }
+
+  #main > a > img {
+    height: 20px
+  }
+
+  #main > h1 > img {
+    height: 25px;
+    margin-left: 15px;
+  }
+}
+
+#image > picture {
+  width: 280px;
+  display: block;
+}
+
+#image > picture * {
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.4));
+  transform: rotate(-5.32deg);
+}
+
+div.list {
+  padding-top: 30px;
+}
+
+div.list-item {
+  margin-bottom: 40px;
+  margin-left: 30px;
+}
+
+div.list-item > h2 {
+  font-family: DDinBold;
+  font-size: 24px;
+  color: white;
+}
+
+div.list-item > .emoji {
+  position: absolute;
+  margin: 0px;
+  margin-left: -40px;
+  margin-top: -5px;
+  font-size: 30px;
+}
+
+div.list-item > .text {
+  font-family: DDin;
+  font-size: 16px;
+  color: white;
+}
