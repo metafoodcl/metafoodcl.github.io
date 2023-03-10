@@ -71,7 +71,30 @@ body {
   margin-bottom: 45px;
 }
 
-#main > a {
+#buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: flex-start;
+}
+
+#catalog {
+  display: flex;
+  height: 74px;
+  width: 258px;
+  font-family: DDinBold;
+  font-size: 24px;
+  background-color: #28BFBF;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+
+#whatsapp {
   display: flex;
   height: 70px;
   width: 254px;
@@ -82,14 +105,12 @@ body {
   text-align: center;
   border: 2px solid #28BFBF;
   border-radius: 10px;
-  margin-right: auto;
-  margin-left: auto;
   align-items: center;
   justify-content: center;
   gap: 15px;
 }
 
-#main > a > img {
+#whatsapp > img {
   height: 35px;
   stroke: #28BFBF;
 }
@@ -103,20 +124,33 @@ body {
   #main > h1 {
     font-size: 24px;
     line-height: 30px;
+    text-align: center;
   }
 
   #main > p {
     font-size: 18px;
     line-height: 16px;
+    text-align: center;
   }
 
-  #main > a {
+  #buttons {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #whatsapp {
     height: 50px;
     font-size: 20px;
   }
 
-  #main > a > img {
+  #whatsapp > img {
     height: 20px
+  }
+
+  #catalog {
+    height: 54px;
+    font-size: 20px;
   }
 
   #main > h1 > img {
