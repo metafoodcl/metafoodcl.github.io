@@ -17,6 +17,11 @@ body {
   background-position-y: bottom;
 }
 
+#companyname {
+  color: white;
+  font-family: DDin;
+}
+
 #title {
   margin-top: 70px;
   margin-bottom: 50px;
